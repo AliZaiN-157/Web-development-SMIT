@@ -1,0 +1,413 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    background-color: #1b1b1f;
+}
+.navbar{
+    background-color: #1b1b1f !important;
+    border: 2px solid black !important;
+
+}
+
+
+.navbar-nav{
+    margin-top: 12px;
+    color: white !important;
+}
+
+.navbar-nav>.img,.fa-user-circle{
+    position: static; 
+    bottom: 25px;
+    left: 45px;
+    justify-content: space-between;
+    /* color: teal !important; */
+         
+}
+.dropdown-item,.dropdown-menu{
+    background-color: #1b1b1f !important;
+    color: teal !important;
+    font-weight: bold;
+}
+.nav-link{
+    font-weight: bold !important;
+    color: teal !important;
+    font-family: 'Patua One', cursive;
+
+}
+
+.fa-user-circle,.fa-gamepad,.fa-home,.fa-film,.fa-download,.fa-play{
+    font-size: 30px !important;
+    color: teal;
+    cursor: pointer;
+}
+.container{
+   width: 100%;
+   height: auto;
+   display: flex;
+   /* border: 2px solid blue; */
+   margin-top: 10px;
+   margin: auto;
+}
+.row{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 2px solid blue;  */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.card{
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+.card>.softcard{
+    width: auto;
+    height: auto;
+    /* border: 2px solid grey; */
+         
+}
+.btn-primary{
+    width: 100%;
+    background-color: teal;
+    border: 2px solid teal;
+}
+.btn-primary:hover{
+    background-color: teal;
+}
+
+.Software{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.Software>h3 {
+    width: 100%;
+    height: auto;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    border-bottom: 2px solid teal;
+    border-top: 2px solid teal;
+    /* border: 2px solid teal; */
+    color: teal;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    /* margin: auto; */
+}
+.fa-arrow-circle-right{
+    font-size: 25px !important;
+    color: white;
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+  
+}
+
+.marquee{
+    width: 20%;
+    /* border: 2px solid teal; */
+    margin-top: 10px;
+    height: auto;
+    margin-right: 15px;
+    
+}
+.marquee>h2{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    text-shadow: 1px 1px black; 
+    color: teal;
+    font-weight: bold;
+    border-bottom: 2px solid teal;
+}
+
+.marquee>ul{
+    list-style-type: none !important;
+}
+.marquee>.ul>.li{
+    margin: 10px;
+    font-weight: bold;
+    
+}
+@media only screen and (max-width: 768px){
+    .marquee>h2{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-shadow: 2px 2px black; 
+        color: teal;
+        font-weight: bold;
+        font-size: 25px;
+        border-bottom: 2px solid teal;
+    } 
+}
+@media only screen and (max-width: 425px){
+    .marquee>ul>li{
+        margin: 8px;
+        font-size: 6px;
+        
+    }
+    .marquee>h2{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-shadow: 2px 2px black; 
+        color: teal;
+        font-weight: bold;
+        font-size: 15px;
+        border-bottom: 2px solid teal;
+        
+    }
+    .fa-arrow-circle-right{
+        font-size: 25px !important;
+        color: white;
+        float: right;
+        margin-top: -40px;
+        margin-right: 10px;
+      
+    }
+    .Software>h3{
+        font-size: 35px;
+    }
+     
+}
+@media only screen and (max-width: 375px){
+    .marquee{
+        width: 30%;
+        /* border: 2px solid black; */
+        margin-top: 10px;
+        height: auto;
+        margin-right: 20px;
+        
+    }
+    .marquee>ul>li{
+        margin: auto;
+        font-size: auto;
+        
+        
+    }
+    .marquee>h2{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-shadow: 2px 2px black; 
+        color: teal;
+        font-weight: bold;
+        font-size: 12px;
+        border-bottom: 2px solid teal;
+    } 
+}
+@media only screen and (max-width: 320px){
+    .fa-arrow-circle-right{
+        font-size: 25px !important;
+        color: white;
+        float: right;
+        margin-top: -40px;
+        margin-right: 0px;
+      
+    }
+    
+}
+
+.container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 10px ;
+}
+.Games{
+    width: 90%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 10px;
+    /* box-shadow: 2px 2px 1px 2px white; */
+}
+.Games>h3 {
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    /* border: 2px solid blue; */
+    /* margin: auto; */
+    height: 40px;
+    font-weight: bold;
+    width: 100%;
+    color: teal;
+    text-shadow: 2px 2px black;
+    border-bottom: 2px solid teal;
+    border-top: 2px solid teal;
+    
+}
+.card{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid white;
+}
+.card>.gamecard{
+    width: auto;
+    height: auto; 
+}
+.container3{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid rebeccapurple; */
+}
+.Movies{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+.Movies>h2 {
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    /* border: 2px solid blue; */
+    /* margin: auto; */
+    height: 40px;
+    font-weight: bold;
+    width: 100%;
+    color: teal;
+    text-shadow: 2px 2px black;
+    border-bottom: 2px solid teal;
+    border-top: 2px solid teal;
+    margin: auto;
+    margin-top: 10px;
+}
+.Bmovies{
+    width: 100%;
+    height: auto;
+    
+
+}
+.Bmovies>h3 {
+    width: 100%;
+    height: auto;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    border-bottom: 2px solid teal;
+    border-top: 2px solid teal;
+    margin-top: 40px;  
+    color: teal;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    /* margin: auto; */
+    
+}
+.card{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid white;
+}
+/* <div class="Bcard"> */
+.card>.Bcard{
+    width: auto;
+    height: auto; 
+}
+.Movies>.Hmovies{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+.Hmovies>h3 {
+    width: 100%;
+    height: auto;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    border-bottom: 2px solid teal;
+    border-top: 2px solid teal;
+    margin-top: 40px;  
+    color: teal;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    /* margin: auto; */
+}
+.card{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid white;
+}
+/* <div class="Hcard"> */
+.card>.Hcard{
+    width: auto;
+    height: auto; 
+}
+.Movies>.netflix{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+.netflix>h3 {
+    width: 100%;
+    height: auto;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    border-bottom: 2px solid teal;
+    border-top: 2px solid teal;
+    margin-top: 40px;  
+    color: teal;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    /* margin: auto; */
+}
+.card{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid white;
+}
+/* <div class="Ncard"> */
+.card>.Ncard{
+    width: auto;
+    height: auto; 
+}
+
+/* ----------------------------------Series--------------------------- */
+
+.container4{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+}
+.series{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+} 
+.series>h3{
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+    color: teal;
+    text-align: center;
+    border-bottom: 2px solid teal;
+    border-top: 2px solid teal;
+    text-shadow: 2px 2px black;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+}
+.card{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid white;
+}
+/* ------------------------Footer------------------------- */
+
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer>h4{
+    color: teal;
+    font-weight: bold;
+    padding-top: 10px;    
+}
+
+

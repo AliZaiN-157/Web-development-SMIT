@@ -1,0 +1,54 @@
+body {
+      background-color: white;
+}
+ 
+img {
+      height: 100%;
+      width: 100%;
+            
+}
+
+h1 { 
+      font-family: Arial, Helvetica, sans-serif;
+     color: black; 
+     width: 100%;
+}
+span {
+      color: springgreen;
+}
+
+.AI1 { 
+      display: flex;
+      flex-wrap: wrap; 
+      align-self: center;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+}
+
+.AI1 > div {
+      background-color: springgreen;
+      font-size: 20px;
+      margin: 20px;
+      padding: 20px;
+      width: 400px;
+      text-align: center;
+      border: 2px solid black;
+}
+
+.button {
+      color: royalblue;
+      background-color: white;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      padding: 15px 32px;
+      display: inline-block;
+
+
+}           
+ 
+.disabled {
+      cursor: not-allowed;
+}
+
+ 

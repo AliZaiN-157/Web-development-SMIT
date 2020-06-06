@@ -1,0 +1,480 @@
+*{
+    margin :0;
+    padding:0 ;
+    /* is k krny sy puri body par margin and padding khtm hojata hai  */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* ab hum container ki stling krtty hain */
+.container{
+    width:100%;
+    height: 300px;
+    border:1px solid black;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color:#2550f1 ;
+    display: flex;
+    justify-content: center;
+} 
+/* ab gor sy sunnta */
+/* header k andr 2 divs hain ok ?hnorder dy dyte hain taky  clear hoon */
+
+.header>.social_sites
+{
+    /* border: 1px solid black; */
+    padding: 5px;
+    float: left;
+    flex:1
+    /* display: inline-block;          */
+           
+}
+.header>.para
+{
+    /* border: 1px solid black; */
+    float: left;
+    text-align: center;
+    position: relative;
+    flex: 3;
+}
+.header>.buttons
+{
+    /* display: flex; */
+    padding: 5px;
+    flex: 2
+       
+}
+.social_sites>.Links{
+    list-style-type: none;
+}
+.social_sites>.Links>li{
+    display: inline-block;
+    padding: 10px;
+}
+.social_sites>.Links>li>a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 30px;
+    width:10%;
+}
+.social_sites{
+    /* border: 1px solid #ffffff; */
+    width: 23%;
+    margin-left:-5px;
+    text-align: center;
+    
+}
+.para {   
+    width: 40%;
+    text-align: left;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: solid black;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.buttons>button{
+    width: 30%;
+    margin-right: 8px;
+    background-color: #eaeef1;
+    border: 1px solid white;
+    letter-spacing: 2px;
+}
+
+
+/* "  >  is ka mtlb k header ka child..." */
+
+/* ab me chta hu k 3no dvs ek line m dekhn..
+ek sy ziada b hosty hain... */
+
+/* ab flex ki ek property hoti hai display flex is s
+head m jitny b divs hoty hain ek line m hojaty hain
+phr ap unk width det kr k bara chota kr skty hain
+to yhn 3 div ka head kon hai?header great/// to displlay flex hum header ko dyn gy */
+.secondheader{
+    display: flex;
+     border-bottom: 1px solid white;
+     border-top: 1px solid white;
+    width: 100%;
+    height: auto;
+   position: sticky;
+   top: -1px;
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.secondheader>.logo{
+    width: 30%;
+    text-align: center;
+    margin-top: 15px;
+ 
+}
+.secondheader>.logo>img{
+    width: 60%;
+}
+.navbar{
+    width:100%;
+    margin-right: 50px;
+    /* display: flex;
+    background-color: #2550f1; */
+}
+.navbar>ul{
+    list-style-type: none;
+    text-align: center;
+    /* margin-top: 25px; */
+    margin-top: 15px;
+    position: relative;
+    padding: 10px;
+    
+}
+.navbar>ul>li{
+    display: inline-block;
+    margin-right: 12px;
+   padding: 10px;
+   /* border: 1px solid wheat;  */
+   border-radius:25px ;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.navbar>ul>li:hover{
+    background-color: #2550f1; 
+    
+    transition: .3s linear;
+ 
+}
+#home
+    {
+    /* background-color: rgb(239, 241, 239); */
+     background-color:#2550f1;
+     color: white;
+   
+    }
+    #home>a
+    {
+    /* background-color: rgb(239, 241, 239); */
+    
+     color: white;
+   
+    }
+    #arrow{
+    margin-left:3px;
+    }
+    .navbar>ul>li>a{
+        /* font-family: 'Manrope', sans-serif; */
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(15, 14, 14);
+        /* font-weight: bolder; */
+        text-decoration: none;
+        font-size: 12px;
+        display: block;
+       
+    }
+    .navbar>ul>li>a:hover{
+        color: white;
+        
+    }
+.slider
+{
+    width: 100%;
+    
+}
+.slider>img
+{
+    width: 100%;
+}
+.marquee{
+    border:1px solid black;
+    background-color: #004890;
+}
+.marquee>marquee{
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;;
+}
+.info{
+    width:100%;
+    background-color: #f7f8fab6;
+    height: auto;
+}
+.head_logo{
+   text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    border-bottom-width: 1px solid black;
+}
+
+
+.head_logo>.icon>img{
+
+    margin-top: 15px;
+    width: 3%;
+}
+
+.text2{
+    width: 70%;
+    height: auto;
+    margin: 40px auto;
+}
+.facility{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    background-color:#2550f1 ;
+
+}
+.facility>div {
+    width: 100%;
+    padding: 15px;
+
+}
+.facility>div>img {
+    width: 20%;
+}
+.facility>span{
+    color: #00ff00;
+    /* border-bottom: 2px solid green; */
+}
+.g3m2{
+    display: flex;
+    justify-content: space-between;
+}
+.g3{
+    width: 70%;
+    /* background-color: black; */
+    height: auto;
+    border: 2px blue;
+    margin: 1em  auto;
+}
+.g3>.Row1 {
+    width: 100%;
+    display: flex;
+    height: auto;
+    font-size: 15px;
+    justify-content: space-between;
+
+}
+.g3>.Row1>div{
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 35px 2px #dfe0e2;
+    text-align: center;
+}
+.g3>.Row2 {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+
+}
+.g3>.Row2>div{
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 35px 2px #dfe0e2;
+    text-align: center;
+}
+.g3>.Row1>div>img{
+    margin-top: 30px;
+    width: 20%;
+    cursor: pointer;
+    
+}
+.g3>.Row1>div>h2{
+   font-size: 20px;
+   color:#316dc3;
+   margin-top: 20px;
+    
+}
+.g3>.Row2>div>img{
+    margin-top: 30px;
+    width: 20%;
+    cursor: pointer;
+}
+.g3>.Row2>div>h2{
+    font-size: 20px;
+    color:#316dc3;
+    margin-top: 20px;
+     
+ }
+.Mission{
+    width: 55%;
+    /* background-color: black; */
+    height: auto;
+    display: flex;
+    box-shadow: 10px 10px 35px 2px #dfe0e2;
+}
+.title4{     
+    margin-left: 27px;
+    color:#004890;
+    line-height: 50px;
+}
+
+.title4>.head1>span{
+    border-bottom: 2px solid green;
+}
+.title4>.head1{
+    text-align: left;
+    justify-content: left;
+    margin-left: 10%;
+}
+
+.g3m2{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    display: flex;
+   
+}
+
+.title4{
+    width: 60%;
+    margin: 8px auto;
+   
+}
+.title4>.M1{
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    width: 90%;
+}
+.title4>.M1>.SocialWork{
+
+    width: 90%;
+    height: auto;
+    background-color: #f7f8fab6;
+    margin: 10px;
+    display: flex;
+}
+.title4>.M1>.SocialWork>div{
+    margin: 15px;
+}
+
+.title4>.M2{
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    width: 90%;
+}
+.title4>.M2>.SocialWork{
+
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    display: flex;
+}
+.title4>.M2>.SocialWork>div{
+    margin: 15px;
+}
+
+.events{
+    width: 40%;
+    height: auto;
+    margin-top: 15px;
+    padding: 10px;
+       
+}
+.H2{
+    border-bottom:2px solid green;
+    height: 30px;
+    color:#004890;
+}
+marquee{
+    width: 70%;
+    margin-top: 20px;
+}
+.marquee>ul{
+    list-style-type: none;
+}
+.marquee>ul>li{
+    margin: 10px;
+    font-size: 15px;
+    color: black;
+}
+.imagegallery{
+    width:100% ;
+    height: auto;
+}
+.imagegallery>.images{
+    display: flex;
+    margin: 50px auto;
+    width: 90;
+}
+.imagegallery>.images>div{
+    width: 100%;
+    text-align: center;
+    border:  2px solid black;
+    height: auto;
+    padding: 2px;
+    margin: 2px;
+    
+}
+.imagegallery>.images>div>img{
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #065bd1;
+}
+.main{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.main>div{
+    margin: 5px;
+    width: 60%;
+    height: 300px;
+    margin-top: 40px;
+}
+.main>div>ul{
+    list-style-type: none;
+    padding: 30px;
+    margin-left: 10px;
+    align-self: center;
+    
+}
+.main>div>ul>li{
+    color: white;
+    line-height: 25px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.baseline{
+    background-color:#004890;
+    height: auto;
+    padding: 18px;
+   
+}
+.baseline>p{
+    text-align: left;
+    color: white;
+    font-size: 12px;
+    margin-left: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+

@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    background-color: #1b1b1f;
+}
+.navbar{
+    background-color: #1b1b1f !important;
+    border: 2px solid black !important;
+
+}
+.navbar-nav{
+    margin-top: 12px;
+    color: white !important;
+}
+.dropdown-item,.dropdown-menu{
+    background-color: #1b1b1f !important;
+    color: teal !important;
+    font-weight: bold;
+}
+.navbar-nav>img,.fa-user-circle{
+    position: static; 
+    bottom: 25px;
+    left: 45px;
+    justify-content: space-between;
+}
+.nav-link{
+    font-weight: bold !important;
+    color: teal !important;
+    font-family: 'Patua One', cursive;
+
+}
+
+.fa-user-circle,.fa-gamepad,.fa-home,.fa-film,.fa-download,.fa-play{
+    font-size: 30px !important;
+    color: teal;
+    cursor: pointer;
+}
+.container{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    background-color: #1b1b1f;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.title{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    text-shadow: 1px 1px gray;
+    border-radius: 10%;      
+}
+.row{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 2px solid blue;  */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 200px;
+    height: auto ;
+    border: 2px solid white;
+    margin-top: 10px;
+       
+}
+.btn-primary{
+    width: 100%;
+    background-color: teal;
+    border: 2px solid teal;
+}
+.btn-primary:hover{
+    background-color: teal;
+    
+}
+/* ------------------------Footer------------------------- */
+
+.footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer>h4{
+    color: teal;
+    font-weight: bold;
+    padding-top: 10px;    
+}

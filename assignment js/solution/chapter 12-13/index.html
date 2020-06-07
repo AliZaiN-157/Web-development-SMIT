@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 12 to 13</title>
+</head>
+<body>
+    <h2> Task 2 </h2>
+    <h2> find which number is Greather </h2>
+    <script>
+        var x = +prompt("type any number")
+        var y = +prompt("type any number")
+
+        if (x > y){
+            document.write(x + " is Greather than " + y + "<br>" )
+        }
+        else if (y > x){
+            document.write(y + " is Greather than " + x + "<br>" )
+        }
+        else {
+            document.write(x + " is equal to " + y + "<br>" )
+        }
+    </script>
+
+    <h2> Task 3 </h2>
+    <h2> Check that the number is positive, negative or zero</h2>
+    <script>
+        var x = +prompt("type any number")
+        
+
+        if (x > 0 ){
+            document.write( x + " is the positive number <br>" )
+        }
+        else if (0 > x){
+            document.write(x + " is the negative number <br>" )
+        }
+        else {
+            document.write(x + " is equal to 0 <br>" )
+        }
+
+    </script>
+
+    <h2> Task 4 </h2>
+    <h2> Vowel </h2>
+    <script>
+        var vowel = prompt("type any vowel")
+        x = vowel.toUpperCase()
+        if(x == "A" || x == "E" || x == "I" || x == "O" || x == "U" ) {
+            result = true;
+            document.write( result + "<br>" )
+        }
+        else{
+            result = false;
+            document.write( result + "<br>" )
+        }
+    </script>
+
+    
+</body>
+</html>

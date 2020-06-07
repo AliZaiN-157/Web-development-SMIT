@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2</title>
+</head>
+<body>
+    <h2> Task 5 </h2>
+    <h2> Password Checker</h2>
+    <script>
+        var x = prompt("Type your Password")
+        var y = prompt("Type your Confirm Password")
+
+        if(x === ''){
+            alert("Please enter your password")
+        }
+        else if(y === ''){
+            alert("Please enter your Confirm password")
+        }
+        else if ( x === y){
+            alert("Correct! The password you entered matches the original password")
+        } 
+        else if (x !== y){
+            alert(" Incorrect Password")
+        }
+    </script>
+    <h2> Task 6</h2>
+    <h2> fix the problem </h2>
+    <p> Problem:
+        var greeting;
+        var hour = 13;
+        if (hour < 18) {
+        greeting = "Good day"; 
+        else
+        greeting = "Good evening";
+        }
+    </p>
+    <p>
+        Correction : 1. curly brackets were are added before and after else
+    </p>
+    <script>
+        var greeting;
+        var hour = 13;
+        if (hour < 18) {
+        greeting = "Good day";
+        document.write(greeting)
+        }
+        else{
+        greeting = "Good evening";
+        document.write(greeting)
+        }
+    </script>
+
+    <h2> Task 7</h2>
+    <script>
+        var x = +prompt("Type any hour from 1 to 24 ")
+
+        if ( x > 12){
+            a = x % 12
+            document.write(" its "+ a + " Pm" + "<br>")
+        }
+        else if (x < 12){
+            a = x
+            document.write(" its " + a + " Am" + "<br>")
+        }
+
+    </script>
+</body>
+</html>

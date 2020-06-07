@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Task 8</h2>
+    <script>
+        var y = +prompt("Enter any number ");
+        document.write(" Number chosen is : " +y + "<br>")
+        if (y%3 === 0){
+            document.write( y + " is the divisble of 3 <br>")
+        }
+        else{
+            document.write( y + " is not the divisble of 3 ")
+        }
+    </script>
+
+    <h2> Task 9 </h2>
+    <script>
+        var x= +prompt(" Enter any number ");
+        document.write(" Choosen number is: " + x + "<br>")
+        if ( x % 2 == 0) {
+	    document.write("Even Number <br>");
+        }
+        else{
+            document.write("Odd Number <br>");
+        }
+    </script>
+
+    <h2> Task 10 </h2>
+    <script>
+        var t = +prompt("Whats the temperature today?")
+        document.write("Temperature: " + t + "<br>")
+
+        if (t > 40){
+            document.write("It is too hot outside.")
+        }
+        else if (t > 30){
+            document.write("The Weather today is Normal.")
+        }
+        else if (t > 20){
+            document.write("Today’s Weather is cool.")
+        }
+        else {
+            document.write("OMG! Today’s weather is so Cool.")
+        }
+    </script>
+
+    <h2> Task 11 </h2>
+    <h2> calculator </h2>
+    <script>
+        var num1 = +prompt("Type first number")
+        var num2 = +prompt("Type second number")
+        var op = prompt("Choose the operator")
+        document.write("first number: " + num1 + "<br>")
+        document.write("Second number: " + num2 + "<br>")
+
+        if (op === "+"){
+            document.write(num1 + op + num2 + "=" + (num1 + num2) )
+        }
+        if (op === "-"){
+            document.write(num1 + op + num2 + "=" + (num1 - num2) )
+        }
+        if (op === "*"){
+            document.write(num1 + op + num2 + "=" + (num1 * num2) )
+        }
+        if (op === "/"){
+            document.write(num1 + op + num2 + "=" + (num1 / num2) )
+        }
+        if (op === "%"){
+            document.write(num1 + op + num2 + "=" + (num1 % num2) )
+        }
+    </script>
+</body>
+</html>

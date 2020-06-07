@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Opretions</title>
+    
+        
+    </script>
+</head>
+<body>
+    
+    <h2> Task 1 & 2</h2>
+    <p> alert box </p>
+    <script>
+        var add;
+        add=3+5;
+        alert("Sum of 3 and 5 is " +add)
+
+        var sub=3-5;
+        alert("Difference of 3 and 5 is " +sub)
+
+        var mul=3*5;
+        alert(" 3 time 5 is " +mul)
+
+        var div=3/5;
+        alert("3 divided 5 is " +div)
+
+        var mod=3%5;
+        alert("Mod of 3 and 5 is " +mod)
+    </script>
+
+    <h2> Task 3 </h2>
+
+    <script style="font-size: medium;">
+        var intial_value = 5;
+        document.write("Intial Value is " + intial_value + "<br>" );
+        var increment_value = ++intial_value ;
+        document.write("Incremented Value is " + increment_value + "<br>");
+        var add_iv = increment_value + 7;
+        document.write("Value After adding 7 is " + add_iv + "<br>")
+        var decrement_value = --add_iv;
+        document.write("Decremented value is " +decrement_value + "<br>")
+        var remainder= decrement_value % 3;
+        document.write("The remainder of value divide by 3 is " + remainder) 
+    </script>
+
+    <h2>Task 4</h2>
+    <script>
+        var cost_ticket = 600;
+        document.write("Cost Of Per Movie Ticket is " +cost_ticket + "<br>")
+        ticket = 5*600;
+        document.write("Cost of 5 ticket is " +ticket)
+    </script>
+    
+    <h2> Task 5 </h2>
+    <h3>Table of 4</h3>
+    <script>
+        var i=4;
+        var j=1;
+        document.write( i * j + "<br>" )
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        j++;
+        document.write( i * j + "<br>")
+        
+    </script>
+
+    <h2>Task 6</h2>
+    <h3>Conversion scale of Celsius and fareinheit</h3>
+
+    <script>
+        var C = 25;
+        var F = 70;
+        var Celsius = (F - 32 ) * 5/9;
+        var Fareinheit = (C * 9/5) + 32;
+        document.write( C + "C is "+ Fareinheit +"F" + "<br>")
+        document.write( F + "F is "+ Celsius + "C" )
+    </script> 
+
+    <h2>Task 7</h2>
+    <h3> Shopping Cart</h3>
+    <script>
+        var Price_I1= 650;
+        var quantity_I1 = 3;
+        var Price_I2= 100;
+        var quantity_I2 = 7;
+        var ship_charges = 100;
+        var total=(Price_I1*quantity_I1)+(Price_I2*quantity_I2)+(ship_charges);
+        document.write("The price of item 1 is"+ Price_I1 + "<br>")
+        document.write("The quantity of itme 1 is "+ quantity_I1+ "<br>")
+        document.write("The price of item 2 is "+ Price_I2 + "<br>")
+        document.write("The quantity of item 2 is"+ quantity_I2+ "<br>")
+        document.write("Shipping Charges " + ship_charges + "<br>")
+        document.write("The total cost of your order is " + total)
+
+    </script>
+    <h2> Task 8 </h2>
+    <script>
+        var total_marks ="980";
+        var obtain_marks ="804";
+        var percentage= (obtain_marks/total_marks) * 100;
+        document.write("Total marks :" +total_marks + "<br>")
+        document.write("obtain marks :" +obtain_marks + "<br>")
+        document.write("Percentage :" +percentage)
+    </script>
+
+    <h2> Task 9</h2>
+    <script>
+        var UsD=104.80;
+        var Sr=28;
+        var Sr_PK = 28*25;
+        var UsD_PK = 104.80*10;
+        Total_Pk = Sr_PK + UsD_PK;
+        document.write("Total Currency in PKR :"+ Total_Pk)
+    </script>
+
+    <h2> Task 10 </h2>
+    <script>
+        var num = 6;
+        new_num= (num + 5 * 10)/2;
+        document.write(new_num) 
+    </script>
+
+    <h2> Task 11 </h2>
+    <script>
+        var current_year =2020;
+        var birth_year= 2002;
+        age = current_year - birth_year
+        document.write("your age is :" +age)
+    </script>
+
+    <h2>Task 12 </h2>
+    <script>
+        var radius=5;
+        circumference = (2 * 3.14 * radius);
+        area = (3.14 * radius * radius);
+        document.write("the circumference of circle is :" + circumference + "<br>")
+        document.write("the area of circle is : " +area)
+    </script>
+
+    <h2> Task 13</h2>
+    <script>
+        var snack = "chocolate";
+        var current_age = 15;
+        var max_age = 65;
+        var AOSPD = 3;
+        var left_snack = (max_age - current_age) * AOSPD
+        document.write( "favourite snack :" + snack  + "<br>")
+        document.write("current age :"+ current_age + "<br>")
+        document.write("max age :"+ max_age + "<br>")
+        document.write("Amount of snack per day:"+ AOSPD + "<br>")
+        document.write("you will need " + left_snack + " " + snack + " to last you untill the ripe old age of " + max_age)
+        
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Part2</title>
+</head>
+<body>
+    <!-- <h2> Task 9 </h2>
+    <h3> Adding and deleting of color</h3>
+    <script>
+        var color=[" Red "," Blue "," Green " ]
+        var x = prompt(" Which Color you want to add in Beginning of an Array?")
+        
+        color.unshift(x)
+        document.write("Color " + x + " added at the beginning " + color + "<br>")
+    </script>
+    <script>
+        var color=[" Red "," Blue "," Green " ]
+        var x = prompt(" Which Color you want to add in end of an Array?")
+        
+        color.push(x)
+        document.write("Color " + x + " added at the end " + color + "<br>")
+    </script>
+    <script>
+        var color=["Red" , "Blue" , "Green" ]
+        var x = prompt(" Which Two more Color you want to add in Beginning of an Array?")
+        
+        color.unshift(x)
+        document.write("Color " + x + " added at the beginning " + color + "<br>")
+    </script>
+    <script>
+        var color=["Red" , "Blue" , "Green" ]
+        var x = prompt(" Which Two more Color you want to add in end of an Array?")
+        
+        color.push(x)
+        document.write("Color " + x + " added at the end " + color + "<br>")
+    </script> -->
+
+    <!-- <h3> Deleting Color from Given Array</h3>
+    <script>
+        var color = [" Black "," White "," Pink "," Orange "," Red "," Green ", " Blue "]
+        document.write( " Given Array :" + color + "<br>")
+
+        color.shift();
+        document.write("First Element is Deleted: " + color + "<br>")
+
+        color.pop();
+        document.write(" Last Element is Deleted: " + color + "<br>")
+
+    </script> -->
+
+    <!-- <h3> Add element to Desired Index </h3>
+    <script>
+        var color = [" Black "," White "," Pink "," Orange "," Red "," Green ", " Blue "]
+        document.write(color + "<br>")
+
+        var y = prompt("What color you want to add and at which index ?", " Color name"+"Index number")
+        document.write("Input by User : " + y + "<br>")
+        
+        var x = y.slice(0,y.length - 1);
+        var z = y.slice(y.length-1);
+        color[z] = x
+        document.write(color)
+    </script> -->
+
+    <h3> Delete Element From Desired Index</h3>
+    <script>
+        
+    </script>
+
+    <h2> Task 10 </h2>
+    <script>
+        var score = [ 225 , 175 , 290 , 110 ]
+        document.write("score by students: " + score + "<br>")
+        score.sort()
+        document.write("sorted score: " + score + "<br>")
+    </script>
+
+    <h2> Task 11 </h2>
+    <script>
+        var cities = [ "karachi","Quetta","Islambad","lahore","hyderabad <br>"]
+        document.write(cities)
+        selected_cities = cities.slice(1,3)
+        document.write(selected_cities + "<br>")
+    </script>
+
+    <h2> Task 12 </h2>
+    <script>
+        var arr = ["This", " is ", " my ", " cat" + "<br>"];
+        document.write( " Array: " + arr + "<br>")
+        x = arr.join(" ");
+        document.write( " String: " + x + "<br>")
+    </script>
+
+    <h2> Task 13 </h2>
+    <script>
+        var arr = [];
+        arr[0] = "Keyboard"
+        arr[1] = "Mouse"
+        arr[2] = "Monitor"
+        arr[3] = "printer"
+        document.write(arr + "<br>")
+        firstelement = arr.shift();
+        document.write("Out: " + firstelement + "<br>")
+        secondelement = arr.shift();
+        document.write("Out: " + secondelement + "<br>")
+        thirdelement = arr.shift();
+        document.write("Out: " + thirdelement + "<br>")
+        fourthelement = arr.shift();
+        document.write("Out: " + fourthelement + "<br>")
+
+    </script>
+
+    <h2> Task 14 </h2>
+    <script>
+        var arr = [];
+        arr[0] = "Keyboard"
+        arr[1] = "Mouse"
+        arr[2] = "Monitor"
+        arr[3] = "printer"
+        document.write(arr + "<br>")
+        firstelement = arr.pop();
+        document.write("Out: " + firstelement + "<br>")
+        secondelement = arr.pop();
+        document.write("Out: " + secondelement + "<br>")
+        thirdelement = arr.pop();
+        document.write("Out: " + thirdelement + "<br>")
+        fourthelement = arr.pop();
+        document.write("Out: " + fourthelement + "<br>")
+    </script>
+
+    <h2> Task 15 </h2>
+    <form>
+        Select your favorite Mobile:
+        <select id="myList" onchange="Mobile()">
+          <option>Favourite Mobile</option>
+          <option>Apple</option>
+          <option>Samsung</option>  
+          <option>Nokia</option>
+          <option>Huawei</option>
+          <option>Oppo</option>
+        </select>
+            <p>Your favorite Mobile is: <span id="favorite"></span>
+        </p>
+        
+    </form>
+    <script>
+        function Mobile()
+        {
+        var mylist=document.getElementById("myList");
+        document.getElementById("favorite").innerHTML = mylist.options[mylist.selectedIndex].text+".";
+
+        }
+    </script>
+</body>
+</html>

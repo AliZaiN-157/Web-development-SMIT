@@ -47,6 +47,9 @@
 // document.write("After Replacement : " + City1 + "<br>")
 
 //           Task 8
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var new_msg = message.replace(/and/g,"&")
+// document.write(new_msg)
 
 //           Task 9
 // var str = "472"
@@ -72,11 +75,124 @@
 // document.write(output)
 
 //           Task 12
-var num = 25.25
-x = num.toString()
-y = x.indexOf(".")
-z = x.splice(2,1,"ok")
-document.write(z)
+// var num = 25.25
+// document.write("number : " + num + "<br>")
+// var s = num + '';
+// s =s.replace('.', '');
+// s = parseInt(s);
+// str = s.toString()
+// document.write("string : " + str + "<br>")
+
+//           Task 13
+ 
+//           Task 14
+// var arr = ["cake","cookies","apple pie","chips","patties"]
+// var user_input = prompt("Welcome to ABC Bakery...! what you want ?")
+// x = user_input.toLowerCase()
+
+// if (arr.indexOf(x) > -1){
+//     document.write( x + " is avalaible at index " + arr.indexOf(x) + "<br>")
+// }else{
+//     document.write( x + " is not avalaible  <br>")
+// }
+
+//           Task 15
+// var input = prompt("Enter password");
+// input = input.toLowerCase()
+// if (isNaN(parseInt(input[0])) && (input.length > 6)) {
+//   alert("password is valid");
+// } else {
+//   alert("Enter a valid password");
+// }
+
+//           Task 16 
+// var uni = "University of Karachi";
+// x = uni.split("").join("<br />");
+// document.write(x)
+
+//           Task 17 
+// var input = prompt("Enter here")
+// x = input.length
+
+// y = input.slice(x-1)
+// document.write("The Last Character of " + input + " is " + y + "<br>")
+
+
+//           Task 18
+// var text = "The quick brown fox jumps over the lazy dog";
+// document.write("Text : " + text + "<br>")
+// y = text.split(" ")
+// z = text.toLowerCase()
+// x = z.match(/the/g).length
+// document.write("There are " + x + " occurence(s) of word 'the' ")
+
+
+////------------ Assignment Math Method (26-30)
+
+//           Task 1
+
+// var input = prompt(" Enter Any positive integer","3.45214")
+
+// document.write("Number : " + input + "<br>")
+// y = Math.round(input)
+// document.write("Round Off value  : " + y + "<br>")
+// a = Math.floor(input)
+// document.write("Floor value : " + a + "<br>")
+// b = Math.ceil(input)
+// document.write("Ceil value : " + b + "<br>")
+
+//           Task 2
+// var input = prompt(" Enter Any negative integer","-3.45214")
+
+// document.write("Number : " + input + "<br>")
+// y = Math.round(input)
+// document.write("Round Off value  : " + y + "<br>")
+// a = Math.floor(input)
+// document.write("Floor value : " + a + "<br>")
+// b = Math.ceil(input)
+// document.write("Ceil value : " + b + "<br>")
+
+//          Task 3
+// var input = prompt("Type any Positive or Negative integer ?")
+
+// x = Math.abs(input)
+
+// document.write("The aboslute value of " + input + " is " + x + "<br>" )
+
+//          Task 4
+// var diceRoll = Math.floor( Math.random() * 6 ) +1;
+// alert('You rolled a ' + diceRoll);
+
+//          Task 5
+// var tosscoin = Math.floor( Math.random() * 2 ) +1;
+// if ( tosscoin == 1){
+//     alert(tosscoin + ' Random coin value : Tail');
+// }else{
+//     alert(tosscoin + ' Random coin value : Head');
+// }
+
+//           Task 6
+// var Random_num = Math.floor( Math.random() * 100 ) +1;
+// alert("Random number between 1 and 100 is : " + Random_num )
+
+//           Task 7
+
+//           Task 8
+// var input = prompt("Type any number from 1 to 10 ")
+// alert(" Lets checks the number choosen by user and computer are same or not")
+// var comp = Math.floor( Math.random() * 10 ) +1;
+// if (input === comp){
+//     alert(" Well done ...!")
+// }else{
+//     alert("Better Luck next time ")
+// }
+
+//
+
+
+
+
+
 
 
 

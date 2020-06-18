@@ -84,6 +84,15 @@
 // document.write("string : " + str + "<br>")
 
 //           Task 13
+// var input = prompt("Enter Username ")
+// var error = "@,.!"
+// for (var i = 0; i < input.length; i++) {
+//     if (error.indexOf(input.charAt(i)) != -1){
+//     alert (" enter a valid username"); 
+     
+//  }
+//  }
+
  
 //           Task 14
 // var arr = ["cake","cookies","apple pie","chips","patties"]
@@ -177,6 +186,10 @@
 
 //           Task 7
 
+// var weight_input = +prompt("Enter your weight");
+// x =parseInt(weight_input);
+// alert("The weight of user is " + x)
+
 //           Task 8
 // var input = prompt("Type any number from 1 to 10 ")
 // alert(" Lets checks the number choosen by user and computer are same or not")
@@ -187,12 +200,253 @@
 //     alert("Better Luck next time ")
 // }
 
-//
+// Assignment Date Method (31-34)
+
+//          Task 1
+// var date = new Date ();
+// document.write(date)
+
+//          Task 2
+// const monthNames = ["January", "February", "March", "April", "May", "June",
+//   "July", "August", "September", "October", "November", "December"
+// ];
+
+// const d = new Date();
+// alert("The current month is " + monthNames[d.getMonth()]);
+
+//          Task 3
+// var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// var day = new Date();
+// var DayName = day.toString().split(' ')[0];
+// alert("Today is " + DayName);
+
+//          Task 4
+// var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// var day = new Date();
+// var DayName = day.toString().split(' ')[0];
+// if (DayName == "Sat || Sun"){
+// alert("It's Funday");
+// }else{
+//     alert("Today is " + DayName);
+// }
+
+//          Task 5
+// var date = new Date ();
+// var date = date.getDate();
+// if (date < 16 ){
+//     alert("First fifteen days of the month")
+// }
+// else{
+//     alert("Last days of the month");
+// }
+
+//           Task 7
+// var date = new Date ();
+// var time = date.getHours();
+// alert(time)
+// if (time >= 12 ){
+//     alert("It's " + time + "PM")
+// }else{
+//     alert("It's " + time + "AM")
+// }
+
+//           Task 8
+// var today = new Date();
+// var lastDayOfMonth = new Date(today.getFullYear(), today.getMonth()+7, 0);
+// alert(lastDayOfMonth);
+
+//           Task 9
+
+
+//  Assignment function (35-38)
+
+//           Task 1
+
+// function date() {
+//     var now = new Date();
+//     alert(now)
+// }
+// date();
+
+//          Task 2
+
+// function greet(){
+//     var firstname = prompt("Enter your first name")
+//     var lastname = prompt("Enter your last name")
+
+//     fullname = firstname + "" + lastname
+//     alert("Good Morning " + fullname)
+// }
+// greet();
+
+//          Task 3
+
+// function add(a,b){
+//     var addition = a + b 
+//     alert(addition) 
+// }
+// add(3,3);
+
+//          Task 4
+
+// function cal(num1,opr,num2) {
+//     var num1 = +prompt(" Enter first number ")
+//     var opr = prompt(" Enter Operator")
+//     var num2 = +prompt(" Enter Second number")
+
+//     if (opr === "+"){
+//         return num1 + num2
+//     }
+//     else if (opr === "-"){
+//         return num1 - num2
+//     }
+//     else if (opr === "*"){
+//         return num1 * num2
+//     }
+//     else if (opr === "/"){
+//         return num1 / num2
+//     }
+//     else{
+//         return "Incorrect Operator"
+//     }
+// }
+// var result = cal();
+// alert(result)
+
+//            Task 5 
+// function sqr(){
+//     var a = +prompt("Enter any number and we will return you its square")
+//     return  a * a
+// }
+// var result = sqr();
+// alert(result)
+
+//             Task 6
+
+// function factorial(n){
+//     let answer = 1;
+//     if (n == 0 || n == 1){
+//       return answer;
+//     }else{
+//       for(var i = n; i >= 1; i--){
+//         answer = answer * i;
+//       }
+//       return answer;
+//     }  
+//   }
+//   var n = +prompt("Enter any number")
+//   answer = factorial(n)
+//   alert("The factorial of " + n + " is " + answer);
+
+
+//               Task 7
+
+// function counting(){
+//     var a = +prompt("Enter Start Number")
+//     var b = +prompt("Enter End Number")
+    
+//     for ( i = a ; i <= b ; i++){
+//         console.log(i)
+//     }
+//     return i
+// }
+// counting();
+
+//             Task 8 
+//   function pythagoras(base,perp){        
+
+//     var base = +prompt("Enter base value")
+//     var perp = +prompt("Enter perpendicular value ")
+
+//     function sqr(){
+//         Base = base**2
+//         Perp = perp**2 
+//         Hyp = Base + Perp
+//     }
+//     sqr();
+    
+// }
+ 
+//  pythagoras();
+//  alert(Hyp)
+
+//             Task 9
+ 
+// function rectangle(){
+//     Area = width * height
+//     return Area
+// }
+// var width  = +prompt(" Enter the width ")
+// var height = +prompt(" Enter the height ")
+
+// rectangle();
+// alert(Area)
+
+//             Task 10 
+
+// function palindrome(string){
+//    var string = prompt("Enter any word")
+//     var result = "";
+//     for ( i = string.length - 1; i >= 0; i--){
+//        result += string[i]
+//     }
+//     if(string === result){
+//         alert(string + " is a palindrome word ")
+//     }else{
+//        alert(string + " is not a palindrome word ")
+//      }
+//   return result
+// }
+
+// palindrome();
+
+//        Task 11 
+
+// function pop(str){
+//     var a = str.toLowerCase().split(" ")
+//     for (var i = 0 ; i < a.length; i++){
+//         a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1); 
+//         a[i] = a[i].slice(0,1).toUpperCase() + a[i].slice(1);
+
+//     }
+//     return a.join(" ");
+// }
+// document.write(pop("the quick brown fox"));
+
+//          Task 12
+// function find_longest_word(str)
+// {
+//   var array1 = str.match(/\w[a-z]{0,}/gi);
+//   var result = array1[0];
+
+//   for(var x = 1 ; x < array1.length ; x++)
+//   {
+//     if(result.length < array1[x].length)
+//     {
+//     result = array1[x];
+//     } 
+//   }
+//   return result;
+// }
+// alert(find_longest_word('Web Development Tutorial'));
+
+//         Task 13
 
 
 
+//         Task 14
 
-
-
+// function circle(radius){
+//     function calCircumference(){
+//         Circumference = 2 * 3.142 * radius
+//     }
+//     calCircumference();
+//     function calArea(){
+//         Area = 3.142 * radius**2
+//     }
+//     calArea();
+// }
+// circle(3);
+// alert( "Circumference of cirlce is "+ Circumference + " and Area of circle is " + Area)
 
 

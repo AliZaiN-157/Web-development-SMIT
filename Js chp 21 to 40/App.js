@@ -186,9 +186,18 @@
 
 //           Task 7
 
-// var weight_input = +prompt("Enter your weight");
-// x =parseInt(weight_input);
-// alert("The weight of user is " + x)
+//  var weight = prompt("Enter your weight");
+// if (weight == "50kgs"){
+//     var a = weight.replace("kgs"," kilogram")
+//     alert(a)
+// }else if (weight == "50kg"){
+//     var a = weight.replace("kg"," kilogram")
+//     alert(a)
+// }else if (parseInt(weight) == 50){
+//     alert(weight + " kilogram")
+// }else if (parseFloat(weight) == 50.2){
+//     alert(weight + " kilogram")
+// }
 
 //           Task 8
 // var input = prompt("Type any number from 1 to 10 ")
@@ -204,21 +213,26 @@
 
 //          Task 1
 // var date = new Date ();
-// document.write(date)
+// alert(date)
 
 //          Task 2
-// const monthNames = ["January", "February", "March", "April", "May", "June",
+// var monthNames = ["January", "February", "March", "April", "May", "June",
 //   "July", "August", "September", "October", "November", "December"
 // ];
 
-// const d = new Date();
+// var d = new Date();
 // alert("The current month is " + monthNames[d.getMonth()]);
 
 //          Task 3
-// var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// var days = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
 // var day = new Date();
 // var DayName = day.toString().split(' ')[0];
 // alert("Today is " + DayName);
+
+// var days = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+// var day = new Date();
+// var DayName = day.getDay();
+// alert("Today is " + days[DayName]);
 
 //          Task 4
 // var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -241,13 +255,17 @@
 // }
 
 //           Task 7
-// var date = new Date ();
+
+// var date = new Date();
 // var time = date.getHours();
-// alert(time)
-// if (time >= 12 ){
-//     alert("It's " + time + "PM")
-// }else{
-//     alert("It's " + time + "AM")
+
+//  if ( time > 12){
+//     a = time % 12
+//     alert(" its "+ a + " PM" )
+// }
+// else if (time < 12){
+//     a = time
+//     alert(" its " + a + " AM") 
 // }
 
 //           Task 8
@@ -256,6 +274,56 @@
 // alert(lastDayOfMonth);
 
 //           Task 9
+
+// var d = new Date(2020,5,19);
+// var r = new Date(2020,3,25);
+
+// var diff_time =  d.getTime() - r.getTime()
+// var diff_days = diff_time / (1000 * 3600 * 24);
+// alert(diff_days + " days have passed since 1st Ramazan 2020")
+
+
+//          Task 10
+
+// var intial_date = new Date("Jan 01, 2015")
+// var final_date = new Date("Dec 05, 2015")
+
+// var final = final_date.getTime();
+// var intial = intial_date.getTime();
+// diff = final - intial
+
+// var y = diff / (1000 * 60)
+// alert(y)
+
+//             Task 11
+
+// var current_date = new Date("Dec 05,2015 23:08:16")
+// x = current_date.setHours(22);
+// alert(current_date)
+
+//             Task 12
+
+// var current_date = new Date ("Dec 05,2015 23:09:37")
+// var x = new Date ("Dec 05,2015 23:09:37")
+// a = x.setFullYear(1915);
+// y = x.getFullYear();
+// z = current_date.getFullYear();
+// diff = z - y
+// document.write("current date : " + current_date + " <br> " + diff + " years back, it was " + x )
+
+//              Task 13
+
+// var dob = new Date(prompt("Enter your Date of Birth","July 15, 2002"))
+// var dobmili = dob.getTime();
+// var today = new Date();
+// var todaymili = today.getTime();
+// var diff = todaymili - dobmili
+// diffyear = diff/(1000*60*60*24*30*12)
+// var age = Math.floor(diffyear)
+// alert("Your Age is : " + age)
+
+//             Task 14 
+
 
 
 //  Assignment function (35-38)

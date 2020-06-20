@@ -254,6 +254,12 @@
 //     alert("Last days of the month");
 // }
 
+//           Task 6
+// var date = new Date ("Dec 05,2015 22:32:23");
+// var milliseconds = date.getTime();
+
+// alert(min);
+
 //           Task 7
 
 // var date = new Date();
@@ -323,7 +329,20 @@
 // alert("Your Age is : " + age)
 
 //             Task 14 
-
+// var customer = prompt("Enter your Name")
+// var date = new Date();
+// var Months = ["Jan", "Feb", "Mar", "Apr" , "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+// var month = Months[date.getMonth()]
+// var number_of_unit = 410;
+// var Charge_per_unit = 16;
+// var Net_amount_before_duedate = number_of_unit * Charge_per_unit
+// var Late_payment_surcharge = 350
+// var Gross_amount_after_duedate = number_of_unit * Charge_per_unit + Late_payment_surcharge 
+// alert("Current Month : " + month)
+// alert("Number of unit : " + number_of_unit)
+// alert("Charge per unit : " + Charge_per_unit)
+// alert("Net Amount Payable (Before Due Date) : "+ Net_amount_before_duedate)
+// alert("Gross Amount Payable (After Due Date) : " + Gross_amount_after_duedate) 
 
 
 //  Assignment function (35-38)

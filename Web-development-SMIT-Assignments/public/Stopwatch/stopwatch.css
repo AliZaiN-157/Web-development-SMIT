@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    display: inline-block;
+    margin: 10%;
+    padding: 10%;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 0px 20px orangered;
+}
+h2{
+    margin: 20px;
+    font-size: 33px;
+    color: orangered;
+    text-shadow: 0px 0px 60px orangered;
+    
+}
+span {
+    padding: 2px;
+    font-size: 40px;
+    margin: 2px;
+    font-weight: bolder;
+    color: orangered;
+
+}
+button{
+    margin: 7px;
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: all .4s;
+    box-shadow: 0px 0px 10px orangered;
+}
+button:hover{
+    color: orangered;
+    
+}

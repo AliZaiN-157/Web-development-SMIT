@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <h2>StopWatch</h2>
+        <p>
+            <span id="hrs">00</span><span id="colon">:</span>
+            <span id="min">00</span><span id="colon">:</span>
+            <span id="sec">00</span>
+        </p>
+        <button onclick="Start()" id="Startbtn"><i class="fa fa-play"></i></button>
+        <button onclick="Stop()"><i class="fa fa-stop"></i></button>
+        <button onclick="location.reload()"><i class="fa fa-arrow-circle-right"></i></button>
+
+    </div>
+
+    <script src="stopwatch.js"></script>
+</body>
+
+</html>
